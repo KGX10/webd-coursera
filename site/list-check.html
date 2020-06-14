@@ -3,10 +3,41 @@
 <head>
 	<title>Dinner List</title>
 	<meta charset="utf-8">
+<style>
+
+	body{
+		background-color: black;
+		color: white;
+	}
+	section span{
+	color: blue;
+		background-color: silver;
+		display: block;
+		width: 400px;
+		text-align: center;
+		margin-left: 50px;
+		margin-bottom: none;
+	}
+	section span:hover, section span:active{
+		background-color: red;
+		color:white;
+	}
+	ol,ul {
+		list-style: none;
+	}
+	li:nth-child(odd):hover{
+		background-color: blue;
+		color: white;
+	}
+</style>
 </head>
 <body>
 	<section>
 		<h2>This is my Dinner shopping list.</h2>
+	</section>
+	<section>
+		<span>Delivery</span><br>
+		<span>Pick-Up</span>
 	</section>
 
 	<section>
